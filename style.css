@@ -1,3 +1,6 @@
+
+
+
 .font {
   font-family: sans-serif;
   font-size: medium;
@@ -91,19 +94,18 @@
 
 
 
- @media only screen and(max-width:765px)
-  
-{
-  .para-para
-  {
-    font-size: small;
-    color: #3b6f44 ;
-  }
-}
 
 /* ........ */
 
+@media (min-width:576px) {
 
+  .footer-dl
+  {
+    display: flex;
+    color: aquamarine;
+  }
+  
+}
 
 
 
